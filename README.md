@@ -9,3 +9,14 @@ The attention based unet architecture is designed specifically to achieve the hi
 
 ### 2. Attention Mechanism
 ![Attention_Mechanism](https://github.com/Bhavjot-Singh03/Attention_Based_UNet/assets/131793243/3f745383-cb91-4501-8d0a-def8446d4825)
+
+## Performance Comparison
+
+| Model               | mIoU   | Accuracy | Precision | Recall  | Specificity |
+|---------------------|--------|----------|-----------|---------|-------------|
+| Enhanced U-Net      | 0.8935 | 0.9980   | 0.9973    | 0.9970  | 0.9983      |
+| U-Net               | 0.8326 | 0.9939   | 0.9941    | 0.9927  | 0.9980      |
+| DeepLabv3+          | 0.93   | 0.9967   | -         | -       | -           |
+| EfficientNet FPN    | 0.9083 | -        | -         | -       | -           |
+| Att_B_Unet          | 0.9720 | 0.9782   | 0.9782    | 0.9782  | 0.9927      |
+
